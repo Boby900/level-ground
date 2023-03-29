@@ -1,0 +1,167 @@
+header{
+    background-color: rgb(34, 70, 116);
+    color: white;
+    height: 300px;
+}
+header nav span:nth-child(1){
+    margin-left: 1em;
+}
+header nav {
+    padding-top: 1em;
+}
+header nav span:nth-child(2){
+    margin-left: 1em;
+}
+header nav span:nth-child(3){
+    margin-left: 70em;
+    color: gray;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 0.3em;
+    height: 1.3em;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+section:first-of-type p{
+    margin-left: 15em;
+}
+section:first-of-type{
+    font-size: 1.3rem;
+}
+section:first-of-type h1{
+    margin-left: 10em;
+}
+section:first-of-type span{
+    margin-left: 25em;
+}
+main{
+    height: 300px;
+    background-color: white;
+}
+main{
+    font-size: 1.3rem;
+}
+main h2{
+    color: darkblue;
+    margin-left: 20em;
+}
+main p{
+    color: gray;
+    margin-left: 20em;
+}
+.div-section{
+    background-color: gray;
+}
+div:first-of-type{
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-left: 9em;
+    margin-bottom: 2em;
+    background-color: gray;
+}
+div:nth-child(2){
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-left: 7em;
+    margin-bottom: 2em;
+    background-color: gray;
+}
+.div-section + section{
+    width: 100%;
+    clear: both;
+}
+section > article {
+    width: 50%;
+    float: left;
+    background-color: gray;
+}
+section > article h3{
+    margin-left: 10em;
+}
+section > article p{
+    display: block;
+    transform: translateX(-170px);
+}
+section > article button{
+    margin-left: 20em;
+    padding: 1em;
+}
+.volunteer{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    clear: both;
+    padding-top: 1em;
+    color: darkslateblue;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+}
+.volunteer h3, p{
+    margin-left: 20em;
+}
+.volunteer button {
+    margin-left:  50em;
+    padding: 1em;
+    color: blue;
+}
+footer{
+    height: 500px;
+    background-color: lightgray;
+}
+footer section ul{
+    list-style-type: none;
+}
+footer section ul li{
+    display: inline-block;
+    margin: 1em;
+}
+section:first-of-type span{
+    margin-left: 1em;
+}
+footer section .footer-classes p{
+    float:  left;
+    margin-left: 2em;
+}
+.footer-contributes{
+    float: left ;
+    clear: both;
+}
+.footer-contributes span{
+    margin-left: 1em;
+    font-size: 1.3em;
+}
+.footer-contributes p{
+    font-size: 1.2em;
+}
+.address{
+    float: right;
+    transform: translateY(-120px);
+    font-size: 1.3rem;
+    height: 300px;
+}
+.address p{
+    margin: 0;
+}
+.address address{
+    margin-bottom: 1em;
+}
+hr{
+    border-bottom: 2px solid black;
+    width: 100%;
+    clear: both;
+    transform: translateY(-150px);
+}
+.last-para{
+   margin: 0;
+   padding: 0;
+   transform: translateY(-70px);
+}
+@media screen and (max-width:800px) {
+    .address{
+        float: none;
+        clear: both;
+        margin-top: 15em;
+    }
+}
